@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Khoi {
+    position: relative;
+    margin-top: 0;
+    width: 100%;
+    min-height: 700px;
+
+}
+
+.Khoi .box1 {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: aqua;
+    top: 0;
+    left: 0;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+
+.Khoi .box2 {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: antiquewhite;
+    top: 0;
+    right: 0;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Khoi .box3 {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: gray;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+
+.Khoi .box4 {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: orange;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Khoi .box5 {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-color:red;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+} 
